@@ -1,0 +1,37 @@
+header{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(218, 212, 212);
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.divtxt{
+    width: 50%;
+}
+
+.divimg{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.h2{
+    display: flex;
+    justify-content: center;
+}
+
+.divsub{
+    display: flex;
+    justify-content: center;
+}
+
+.divp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
