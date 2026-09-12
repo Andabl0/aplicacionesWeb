@@ -4,12 +4,19 @@ body{
     font-family: 'Comic Relief', sans-serif;
 }
 
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color:  #FFFFFF;
-    padding: 20px 50px;
+    padding: 5px 50px;
+    border-bottom: 3px solid #007bff;
 }
 
 .navbar img{
@@ -41,7 +48,11 @@ body{
 }
 
 .subt{
+    display: flex;
     font-size: 18px;
+    background-color: #0056b3;
+    color: white;
+    justify-content: center;
 }
 .card {
     background-color: white;
@@ -50,6 +61,7 @@ body{
     width: 250px;
     padding: 15px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .card img {
